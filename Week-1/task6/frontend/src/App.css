@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.task-item {
+  list-style: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.task-item.completed {
+  background-color: #f0f0f0;
+}
+
+.task-edit {
+  margin-bottom: 10px;
+}
+
+.task-edit input,
+.task-edit textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.task-details input[type='checkbox'] {
+  margin-right: 5px;
+}
